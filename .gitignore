@@ -13,3 +13,6 @@
 *.ipr
 *.iml
 
+# other
+work/
+
