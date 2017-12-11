@@ -1,13 +1,13 @@
 
 .PHONY: all
 
-all: move
+all: copy
 
-.PHONY: move
+.PHONY: copy
 
 LINA_DICTO_ASSETS_DIR=app/src/main/assets/lina_dicto
 
-move:
+copy:
 	bash ./tool/copy.sh
 	bash ./tool/dict.sh
 	echo "'use strict';" > $(LINA_DICTO_ASSETS_DIR)/js/menu.js
