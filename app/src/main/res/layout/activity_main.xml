@@ -6,14 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.michinari_nukazawa.app.lina_dicto_for_android.MainActivity">
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
         <WebView
             android:id="@+id/webView1"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             />
-    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
