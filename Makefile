@@ -9,8 +9,10 @@ LINA_DICTO_ASSETS_DIR=app/src/main/assets/lina_dicto
 
 copy:
 	bash ./tool/copy.sh
-	bash ./tool/dict.sh
+	bash ./tool/loader.sh "$(LINA_DICTO_ASSETS_DIR)/js/dictionary_loader.js"
+	bash ./tool/loader.sh "$(LINA_DICTO_ASSETS_DIR)/js/esperanto_language.js"
 	echo "'use strict';" > $(LINA_DICTO_ASSETS_DIR)/js/menu.js
+	echo "'use strict';" > $(LINA_DICTO_ASSETS_DIR)/js/file_loader.js
 	cp -r ./lina_dicto/overwrite/* $(LINA_DICTO_ASSETS_DIR)/
 	rm -rf $(LINA_DICTO_ASSETS_DIR)/data/
 	# remove electron settings
