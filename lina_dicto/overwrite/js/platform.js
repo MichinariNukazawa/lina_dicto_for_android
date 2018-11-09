@@ -1,17 +1,13 @@
 'use strict';
 
-class Platform{
-	init()
+module.exports = class Platform{
+	static init()
 	{
-		// 検索ボタンを有効化
-		let button = document.getElementById("query-area__query-input__button");
-
-		button.addEventListener("click", query_input_element, false);
-
 		return true;
 	}
 
-	get_platform_name(){
+	static get_platform_name()
+	{
 		return "android";
 	}
 };
