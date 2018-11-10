@@ -4,6 +4,7 @@ lina\_dicto for android
 
 # About
 日本語/Esperanto辞書アプリケーション[lina\_dicto](https://github.com/michinarinukazawa/lina_dicto)のAndroid版です。  
+開発を[新板に移行しました]( https://github.com/michinarinukazawa/lina_dicto_for_android_2018 )  
 
 # Screenshot/Image
 <img src="lina_dicto/document/image/20171106.png" width="500">  
